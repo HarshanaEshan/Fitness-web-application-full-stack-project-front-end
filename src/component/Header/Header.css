@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--appColor);
+}
+
+.main-logo{
+    width: 15rem;
+    height: 4rem;
+    /* background-color: beige; */
+    margin-top: 1rem;
+    margin-left: 5rem;
+    z-index: 1;
+}
+
+.logout{
+    color: white;
+}
+.logout:hover{
+    color: red;
+}
+
+.header-menu{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500 bold;
+    font: 1.2rem sans-serif;
+    z-index: 0;
+}
+
+.header-menu>li:hover{
+    cursor: pointer;
+    color: var(--orange);
+}

@@ -1,0 +1,18 @@
+.blob{
+    position: absolute;
+    width: 45rem;
+    height: 80rem;
+}
+.blob:nth-child(2){
+    filter: blur(20px);
+}
+
+@media screen and (max-width: 768px) {
+    .blob{
+        position: absolute;
+        width: 22rem;
+        height: 50rem;
+        margin-top: 0.2rem;
+        margin-left: 4rem;
+    }
+}
